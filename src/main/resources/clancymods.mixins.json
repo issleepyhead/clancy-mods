@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "clancymods.mods.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "GameMenuScreenMixin", "ClientConnectionMixin", "FishingBobberEntityMixin"
+		, "AbstractBlockStateMixin", "AbstractBlockMixin",
+		"ClientPlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

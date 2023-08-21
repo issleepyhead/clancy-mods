@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "clancymods",
+	"version": "${version}",
+	"name": "clancymods",
+	"description": "Mods developed by Clancy Sanchez!",
+	"authors": [
+		"Clancy Sanchez"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/clancymods/clancysanchez.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"clancymods.mods.ClancyMods"
+		],
+		"client": [
+			"clancymods.mods.ClancyModsClient"
+		]
+	},
+	"mixins": [
+		"clancymods.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
