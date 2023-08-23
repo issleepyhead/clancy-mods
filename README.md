@@ -4,3 +4,4 @@
 - Auto Fish
 - Night Vision
 - Speed Amplifier
+- Xray
